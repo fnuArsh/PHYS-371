@@ -1,0 +1,28 @@
+const int outPin = 9; // PWM pin to control LED brightness
+const int analogPinA0 = A0; // Analog input for A0
+const int analogPinA1 = A1; // Analog input for A1
+
+void setup() {
+  pinMode(outPin, OUTPUT); // Set digital pin 9 as an OUTPUT for PWM
+  Serial.begin(9600); // Initialize Serial communication for output
+}
+
+void loop() {
+  // Read analog values from A0 and A1
+  int sensorValueA0 = analogRead(analogPinA0);
+  int sensorValueA1 = analogRead(analogPinA1);
+
+  // Map A0 value (0-1023) to LED brightness (0-255)
+  int ledBrightness = map(sensorValueA1, 0, 1023, 0, 255);
+
+  // Control LED brightness using PWM
+  analogWrite(outPin, ledBrightness);
+
+  // Print the sensor values to the Serial Monitor
+  Serial.print("A0 Value: ");
+  Serial.print(sensorValueA0);
+  Serial.print(", A1 Value: ");
+  Serial.println(sensorValueA1);
+
+  delay(200); // Delay for smoother Serial output
+}
