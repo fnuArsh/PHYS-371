@@ -19,6 +19,8 @@ void loop() {
   analogWrite(outPin, ledBrightness);
 
   // Print the sensor values to the Serial Monitor
+  Serial.print(millis());
+  Serial.print(',');
   Serial.print("A0 Value: ");
   Serial.print(sensorValueA0);
   Serial.print(", A1 Value: ");
