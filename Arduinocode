@@ -19,12 +19,12 @@ void loop() {
   analogWrite(outPin, ledBrightness);
 
   // Print the sensor values to the Serial Monitor
-  Serial.print(millis());
+  Serial.print(millis());(In the original data, i forgot to write it and used timestamps instead to filter out and align the data)
   Serial.print(',');
   Serial.print("A0 Value: ");
   Serial.print(sensorValueA0);
   Serial.print(", A1 Value: ");
   Serial.println(sensorValueA1);
 
-  delay(200); // Delay for smoother Serial output
+  delay(200); // Delay for smoother Serial output 
 }
