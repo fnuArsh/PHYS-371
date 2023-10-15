@@ -1,0 +1,9 @@
+(3300*Divide[5,\(40)463*Divide[5,1024]\(41)])-3300 #this is the lowest resistance in the thermsitor.
+(3300*Divide[5,\(40)490*Divide[5,1024]\(41)])-3300 # this is the highest resistance in the thermistor.
+#below is the temeprature measured for the first resistance 
+Divide[1,\(40)3.354016*10**\(40)-3\(41)+2.569850*10**\(40)-4\(41)*ln\(123)Divide[3998,3800]\(41)+2.620131*10**\(40)-6\(41)*ln\(40)Divide[3998,3800]\(41)*ln\(123)Divide[3998,3800]\(41)+6.383091*10**\(40)-8\(41)*ln\(40)Divide[3998,3800]\(41)*ln\(40)Divide[3998,3800]\(41)*ln\(40)Divide[3998,3800]\(41)\(41)]
+
+#below is the temperature measured for the second resistance
+Divide[1,\(40)3.354016*10**\(40)-3\(41)+2.569850*10**\(40)-4\(41)*ln\(123)Divide[3998,3800]\(41)+2.620131*10**\(40)-6\(41)*ln\(40)Divide[3998,3800]\(41)*ln\(123)Divide[3596,3800]\(41)+6.383091*10**\(40)-8\(41)*ln\(40)Divide[3596,3800]\(41)*ln\(40)Divide[3596,3800]\(41)*ln\(40)Divide[3596,3800]\(41)\(41)]
+
+The difference between the two temepratures is around 4 kelvins/celsius which isn't much. 
